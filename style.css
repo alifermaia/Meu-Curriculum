@@ -1,0 +1,46 @@
+#cabecalho{
+    background-color: #0000FF;
+}
+
+#nometitulo{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    background-color: aliceblue;
+
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;   
+}
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+
+}
+
+#contato{
+    list-style-type: none;
+}
+
+#contato img{
+    width: 15px;
+    padding-right: 15px;
+}
+
+.card{
+    font-family: "Hubballi", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    border: 1px dashed rgb(171, 171, 171);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
